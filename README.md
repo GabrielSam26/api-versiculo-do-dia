@@ -3,7 +3,7 @@
 Uma API simples desenvolvida em **Python** para obter o **versículo do dia** do site [DailyVerses.net](https://dailyverses.net/pt).  
 Utiliza **Flask**, **Requests** e **BeautifulSoup4** para fazer a raspagem de dados e retornar o resultado em formato **JSON**.
 
-![Retorno json api:](https://imgur.com/wpwHuCj)
+![Retorno json api:](https://i.imgur.com/wpwHuCj.png)
 
 ---
 
