@@ -22,29 +22,9 @@ Utiliza **Flask**, **Requests** e **BeautifulSoup4** para fazer a raspagem de da
 ```bash
 git clone [https://github.com/seu-usuario/api-versiculo-do-dia.git](https://github.com/GabrielSam26/api-versiculo-do-dia.git)
 cd api-versiculo-do-dia
-2. Instale as Dependências
-bash
-Copiar código
 pip install -r requirements.txt
-3. Inicie o Servidor Flask
-Execute o seguinte comando para rodar o servidor localmente:
+python index.py
 
-bash
-Copiar código
-python app.py
-Por padrão, o servidor estará disponível em http://127.0.0.1:5000/.
-
-🌍 Endpoints
-A API oferece o seguinte endpoint:
-
-GET /versiculo
-Este endpoint retorna o versículo do dia em formato JSON. Exemplo de resposta:
-
-json
-Copiar código
-{
-  "versiculo": "Porque Deus amou o mundo de tal maneira que deu o seu Filho unigênito, para que todo aquele que nele crê não pereça, mas tenha a vida eterna.",
-  "referencia": "João 3:16"
-}
-📝 Licença
-Distribuído sob a licença MIT. Veja LICENSE para mais informações.
+### 2. Rotas
+'''rotas
+As rotas disponiveis na api são /versiculo, em formato GET para acessar localhost acesse em: http://127.0.0.1:5000/versiculo
