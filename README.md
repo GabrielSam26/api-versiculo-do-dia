@@ -25,6 +25,5 @@ cd api-versiculo-do-dia
 pip install -r requirements.txt
 python index.py
 
-### 2. Rotas
-'''rotas
+Rotas:
 As rotas disponiveis na api são /versiculo, em formato GET para acessar localhost acesse em: http://127.0.0.1:5000/versiculo
