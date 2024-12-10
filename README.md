@@ -20,7 +20,7 @@ Utiliza **Flask**, **Requests** e **BeautifulSoup4** para fazer a raspagem de da
 
 ### 1. Clone o Repositório
 ```bash
-git clone [[https://github.com/GabrielSam26/api-versiculo-do-dia.git]
+git clone [[https://github.com/GabrielSam26/api-versiculo-do-dia.git
 cd api-versiculo-do-dia
 pip install -r requirements.txt
 python index.py
